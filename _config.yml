@@ -121,12 +121,6 @@ kramdown:
 defaults:
   # _pages
   - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: default
-  
-  - scope:
       path: ""
       type: pages
     values:
