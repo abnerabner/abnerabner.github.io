@@ -25,8 +25,8 @@ I have published 0 papers with total <!-- <a href='https://scholar.google.com/ci
 
 
 # 🔥 News
-- *2025.07*: &nbsp;🎉🎉 Successfully obtained a Bachelor of Science degree in Biological Sciences from Southern University of Science and Technology. 
 - *2025.09*: &nbsp;🎉🎉 Enrollment in the joint doctoral program between Tsinghua University and the Shenzhen Medical Academy of Research and Translation.
+- *2025.07*: &nbsp;🎉🎉 Successfully obtained a Bachelor of Science degree in Biological Sciences from Southern University of Science and Technology. 
 
 # 📝 Publications 
 
