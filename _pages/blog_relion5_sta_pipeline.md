@@ -10,7 +10,7 @@ sidebar: false
 This is a technical note based on my hands-on experience with the RELION 5 STA pipeline.
 The content reflects practical observations rather than an official tutorial.
 
----
+--
 
 ## Overview
 
@@ -22,21 +22,21 @@ and optimisation under a consistent Bayesian framework.
 This post summarises the **actual workflow**, **common failure modes**,
 and **practical strategies** that I found useful.
 
----
+--
 
-## Pipeline structure
+# Pipeline structure
 
-### 1. Import and preprocessing
+## 1. Import and preprocessing
 
 At this stage, consistency in pixel size, tilt geometry, and CTF modelling
 is more important than aggressive optimisation.
 
-### 2. Particle picking and extraction
+## 2. Particle picking and extraction
 
 Extraction parameters define the signal-to-noise ratio of the entire pipeline.
 Most downstream failures can be traced back to overly optimistic box sizes
 or inconsistent sampling.
 
-### 3. Alignment and refinement
+## 3. Alignment and refinement
 
 A frequently encountered error is:
