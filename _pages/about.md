@@ -19,7 +19,7 @@ redirect_from:
 
 Hi! My name is Li Zhenglin, and I'm a PhD student in biology. My research focuses on studying various unique organisms using high-resolution structural biology techniques, particularly advanced cryo-electron microscopy methods—especially cryo-elecon tomography—to uncover distinctive structures. Additionally, I'm fascinated by the unique macromolecular structures found in diseased tissues. I hope my work will help us better understand these remarkable organisms and the causes of diseases!
 
-I have published 0 papers with total <!-- <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>-->google scholar citations <!--<strong><span id='total_cit'> -->0 😇. 
+I have published 0 papers with total <!-- <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>-->google scholar citations. <!--<strong><span id='total_cit'> -->0 😇. 
 <!-- </span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
@@ -54,9 +54,9 @@ I have published 0 papers with total <!-- <a href='https://scholar.google.com/ci
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
-- *2025.09 - now*, Ph.D., Shenzhen Medical Academy of Research and Translation        Shenzhen, China
-- *2025.09 - now*, Ph.D., Tsinghua University        Shenzhen, China 
-- *2021.09 - 2025.07*, Undergraduate, Southern University of Science and Technology        Shenzhen, China 
+- *2025.09 - now*, Ph.D., Shenzhen Medical Academy of Research and Translation.
+- *2025.09 - now*, Ph.D., Tsinghua University.
+- *2021.09 - 2025.07*, Undergraduate, Southern University of Science and Technology.
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
