@@ -125,7 +125,6 @@ defaults:
       type: pages
     values:
       layout: default
-      author_profile: false
   
   - scope:
       path: ""
