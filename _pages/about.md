@@ -48,7 +48,7 @@ I have published 0 papers with total <!-- <a href='https://scholar.google.com/ci
 
 
 # 🎖 Honors and Awards
-- Continue to work hard...😴
+- Continue to work hard... 😴
 
 <!-- - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
