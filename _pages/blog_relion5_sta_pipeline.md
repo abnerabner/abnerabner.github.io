@@ -1,10 +1,9 @@
 ---
-layout: single
+layout: default
 title: "RELION 5 STA pipeline"
 subtitle: "Workflow, notes and common pitfalls"
 permalink: /blogs/relion5-sta/
 author_profile: false
-
 classes: wide
 ---
 
