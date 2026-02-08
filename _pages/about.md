@@ -63,4 +63,4 @@ I have published 0 papers with total <!-- <a href='https://scholar.google.com/ci
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # ✍ Representative Blogs
-- [RELION 5 STA pipeline.](/blogs/relion-sta-pipeline.md) 🤔
+- [RELION 5 STA pipeline.](/blogs/relion-sta-pipeline/) 🤔
