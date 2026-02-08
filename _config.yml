@@ -63,6 +63,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _blogs
   - files
 exclude:
   - docs
@@ -161,3 +162,9 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Collections（添加这个部分）
+collections:
+  blogs:
+    output: true           # 生成独立页面
+    permalink: /blogs/:name/  # URL 格式：/blogs/blog1/
