@@ -127,7 +127,21 @@ defaults:
     values:
       layout: default
       author_profile: true
-
+  # _blogs 集合
+  - scope:
+      path: "_blogs"
+      type: blogs          # ✅ 集合类型
+    values:
+      layout: default
+      author_profile: true
+      
+  # 所有 pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
 
 # Sass/SCSS
 sass:
