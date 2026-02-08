@@ -133,15 +133,8 @@ defaults:
       type: blogs          # ✅ 集合类型
     values:
       layout: default
-      author_profile: true
+      author_profile: false
       
-  # 所有 pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: default
-      author_profile: true
 
 # Sass/SCSS
 sass:
