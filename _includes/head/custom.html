@@ -21,3 +21,38 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
 <!-- end custom head snippets -->
+
+<!-- 导航栏当前页面高亮 -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var currentPath = window.location.pathname;
+  
+  // 映射：路径 -> 导航链接文本
+  var pageMap = {
+    '/moments/': 'Moments',
+    '/blogs/': 'Blogs',
+    '/gallery/': 'Gallery'
+    // 添加更多独立页面
+  };
+  
+  var currentTitle = pageMap[currentPath];
+  if (!currentTitle) return;
+  
+  var navItems = document.querySelectorAll('.masthead__menu-item');
+  navItems.forEach(function(item) {
+    var link = item.querySelector('a');
+    if (link && link.textContent.trim() === currentTitle) {
+      item.classList.add('current-page');
+    }
+  });
+});
+</script>
+
+<style>
+.masthead__menu-item.current-page a {
+  background-color: #e9ecef;  /* 浅灰色背景 */
+  color: #495057;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+}
+</style>
