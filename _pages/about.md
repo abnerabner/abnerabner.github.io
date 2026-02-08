@@ -30,7 +30,7 @@ I have published 0 papers with total <!-- <a href='https://scholar.google.com/ci
 
 
 # 🔥 News
-- *2025.09*: &nbsp;🎉🎉 Enrollment in the joint doctoral program between Tsinghua University and the Shenzhen Medical Academy of Research and Translation.
+- *2025.09*: &nbsp;🎉🎉 Enrollment in the joint Ph.D. program between Tsinghua University and the Shenzhen Medical Academy of Research and Translation.
 - *2025.07*: &nbsp;🎉🎉 Successfully obtained a Bachelor of Science degree in Biological Sciences from Southern University of Science and Technology. 
 
 # 📝 Publications 
@@ -67,5 +67,5 @@ I have published 0 papers with total <!-- <a href='https://scholar.google.com/ci
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
-# ✍ Representative Blogs
+# ✍ Selected Blogs
 - [RELION 5 STA pipeline.](/blogs/relion-sta-pipeline/) 🤔
