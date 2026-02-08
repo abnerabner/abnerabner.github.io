@@ -19,7 +19,7 @@ main:
     url: "/blogs/"
 
   - title: "Moments"
-  url: "/moments/"
+    url: "/moments/"
 
 #  - title: "Invited Talks"
 #    url: "/#-invited-talks"
