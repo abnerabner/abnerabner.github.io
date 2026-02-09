@@ -3,7 +3,6 @@ layout: default
 ---
 
 <div class="blog-with-sidebar">
-  <!-- 左侧导航栏 -->
   <aside class="blog-sidebar">
     <nav class="toc-nav">
       <h4>Contents</h4>
@@ -22,8 +21,32 @@ layout: default
     </nav>
   </aside>
 
-  <!-- 主内容区 -->
   <article class="blog-content">
     {{ content }}
   </article>
 </div>
+
+<!-- 代码复制功能 -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // 为所有代码块添加复制按钮
+  document.querySelectorAll('pre').forEach(function(pre) {
+    var button = document.createElement('button');
+    button.className = 'copy-button';
+    button.textContent = 'Copy';
+    
+    button.addEventListener('click', function() {
+      var code = pre.querySelector('code') || pre;
+      navigator.clipboard.writeText(code.textContent).then(function() {
+        button.textContent = 'Copied!';
+        setTimeout(function() {
+          button.textContent = 'Copy';
+        }, 2000);
+      });
+    });
+    
+    pre.style.position = 'relative';
+    pre.appendChild(button);
+  });
+});
+</script>
