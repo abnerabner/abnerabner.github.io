@@ -16,7 +16,6 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-
 # 👋 About Me
 
 <p style="margin-left: 2em; line-height: 1.6;">
@@ -26,46 +25,6 @@ Hi! My name is Zhenglin Li, and I'm a Ph.D. student in biology. My research focu
 <p style="margin-left: 2em;">
 I have published 0 papers with total <!-- <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>-->0 google scholar citations<!--</a>--> 😇
 </p>
-1
-
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-
 
 # 🔥 News
 - *2025.09*: &nbsp;🎉🎉 Enrollment in the joint Ph.D. program between Tsinghua University and the Shenzhen Medical Academy of Research and Translation.
