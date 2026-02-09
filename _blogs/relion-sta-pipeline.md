@@ -8,7 +8,8 @@ layout: blog
 This tutorial will guide you through the entire Subtomogram Averaging (STA) workflow using RELION 5.
 
 
-## Prerequisites {: #prerequisites}
+## Prerequisites 
+{: #prerequisites}
 
 Before starting, ensure you have:
 - RELION 5.0 or later installed
