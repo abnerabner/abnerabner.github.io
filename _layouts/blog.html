@@ -22,6 +22,9 @@ layout: default
   </aside>
 
   <article class="blog-content">
+    <!-- 添加博客标题 -->
+    <h1 class="blog-title">{{ page.title }}</h1>
+    
     {{ content }}
   </article>
 </div>
@@ -33,16 +36,13 @@ document.addEventListener('DOMContentLoaded', function() {
     var button = document.createElement('button');
     button.className = 'copy-button';
     button.title = 'Copy';
-    // 使用 SVG 图标
     button.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
     
     button.addEventListener('click', function() {
       var code = pre.querySelector('code') || pre;
       navigator.clipboard.writeText(code.textContent).then(function() {
-        // 复制成功后显示对勾
         button.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>';
         setTimeout(function() {
-          // 2秒后恢复复制图标
           button.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
         }, 2000);
       });
