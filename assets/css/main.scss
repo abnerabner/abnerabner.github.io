@@ -406,27 +406,3 @@ pre:hover .copy-button {
   }
 }
 
-/* 强制博客页面突破父容器限制 */
-.page {
-  width: 100%;
-  max-width: none;
-  
-  .page__content {
-    width: 100%;
-    max-width: none;
-    padding: 0;
-    margin: 0;
-  }
-}
-
-/* 重新设置博客布局 */
-.blog-with-sidebar {
-  display: flex;
-  gap: 40px;
-  max-width: 1600px;          /* 更宽 */
-  margin: 0;                  /* 不居中 */
-  padding: 0 40px 0 5%;       /* 左边距减少到 5% */
-  width: 100%;
-  
-  /* 其他样式保持不变... */
-}
