@@ -469,3 +469,9 @@ pre {
   }
 }
 
+/* 博客内容区域标题锚点偏移 */
+.blog-content {
+  h2, h3 {
+    scroll-margin-top: 200px;  /* 根据实际导航栏高度调整 */
+  }
+}
