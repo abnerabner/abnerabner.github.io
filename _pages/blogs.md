@@ -5,7 +5,7 @@ layout: default
 author_profile: true
 ---
 
-# ✍ My Blogs
+<h1 style="font-size: 2.5em; font-weight: bold;">✍ My Blogs</h1>
 
 <div class="blogs-list">
 {% for blog in site.blogs %}
