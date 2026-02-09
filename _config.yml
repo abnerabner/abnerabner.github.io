@@ -11,11 +11,6 @@ description              : "Learn to use Cryo-ET to discover the life"
 repository               : "https://github.com/abnerabner/abnerabner.github.io"
 google_scholar_stats_use_cdn : false
 
-# 新增：覆盖 masthead 链接（关键！）
-masthead:
-  title: "Homepage"
-  url: "/"
-
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
