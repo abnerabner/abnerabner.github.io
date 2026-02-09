@@ -87,8 +87,8 @@
 
 }
 
-$scroll_offset : 2em;
-h1:before, .anchor:before { 
+$scroll_offset : 200px;  /* 原来是 2em，改成 100px 或更大 */
+h1:before, h2:before, h3:before, h4:before, h5:before, h6:before, .anchor:before { 
     content: ''; 
     display: block; 
     position: relative; 
