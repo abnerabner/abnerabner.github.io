@@ -304,3 +304,92 @@ h1:before, .anchor:before {
     }
   }
 }
+
+/* 博客页面字体放大 */
+.blog-content {
+  font-size: 16px;  /* 基础字体从默认14px改为16px */
+  line-height: 1.8;
+  
+  h2 {
+    font-size: 1.8em;  /* 标题更大 */
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    
+    &:first-of-type {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: none;
+    }
+  }
+  
+  h3 {
+    font-size: 1.4em;
+  }
+  
+  p, li {
+    font-size: 1em;  /* 16px */
+    line-height: 1.8;
+  }
+  
+  /* 代码块样式 */
+  pre {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 16px;
+    overflow-x: auto;
+    font-size: 14px;  /* 代码字体稍小但仍可读 */
+    line-height: 1.6;
+    
+    code {
+      font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
+      font-size: 14px;
+      background: none;
+      padding: 0;
+    }
+  }
+  
+  /* 行内代码 */
+  code {
+    background: #f1f3f4;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
+    font-size: 0.9em;
+  }
+}
+
+/* 复制按钮样式 */
+.copy-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  opacity: 0;  /* 默认隐藏 */
+  transition: opacity 0.2s;
+  
+  &:hover {
+    background: #f0f0f0;
+  }
+}
+
+pre:hover .copy-button {
+  opacity: 1;  /* 鼠标悬停显示 */
+}
+
+/* 左侧导航保持合适大小 */
+.blog-sidebar {
+  .toc-nav {
+    font-size: 14px;
+    
+    h4 {
+      font-size: 16px;
+    }
+  }
+}
