@@ -9,28 +9,6 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // 只针对博客页面的目录链接
-    document.querySelectorAll('.blog-sidebar .toc-nav a[href^="#"]').forEach(function(link) {
-      link.addEventListener('click', function(e) {
-        var href = this.getAttribute('href');
-        if (!href || href === '#') return;
-        
-        var targetId = href.substring(1);
-        var target = document.getElementById(targetId);
-        
-        if (target) {
-          e.preventDefault();
-          var offset = 100; // 导航栏高度
-          var targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
-          window.scrollTo({top: targetPosition, behavior: 'smooth'});
-        }
-      });
-    });
-  });
-  </script>
-  
   <body>
 
     {% include browser-upgrade.html %}
