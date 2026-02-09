@@ -110,7 +110,6 @@ $scroll_offset: 90px;
 .blog-content h5,
 .blog-content h6 {
   margin-top: -$scroll_offset !important;
-  padding-top: 0 !important;  /* 明确设为 0，或者删除这行 */
 }
 
 
