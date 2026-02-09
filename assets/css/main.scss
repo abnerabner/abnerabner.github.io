@@ -421,3 +421,28 @@ pre:hover .copy-button {
   float: none;
   display: inline-block;
 }
+
+/* 移除代码块外层文字 */
+/* 1. 移除外层容器的伪元素（那个空标签） */
+.language-plaintext.highlighter-rouge::before,
+.highlighter-rouge::before {
+    display: none !important;
+}
+
+/* 2. 移除外层容器的背景、padding、边框，让它透明 */
+.language-plaintext.highlighter-rouge,
+.highlighter-rouge {
+    background: transparent !important;
+    padding: 0 !important;
+    border: none !important;
+    margin: 0 !important;
+}
+
+/* 3. 确保内层代码块保留你原本的样式 */
+pre {
+    /* 你原本的代码块样式 */
+    background: #f6f8fa; /* 或你想要的颜色 */
+    padding: 16px;
+    border-radius: 6px;
+    position: relative; /* 为了让复制按钮定位 */
+}
