@@ -442,3 +442,26 @@ pre {
     border-radius: 6px;
     position: relative; /* 为了让复制按钮定位 */
 }
+
+/* 导航栏宽度与页面内容对齐 */
+.masthead {
+  max-width: 1400px;  /* 与你的 blog-with-sidebar 一致 */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15%;  /* 与 blog-with-sidebar 的左padding一致 */
+  padding-right: 40px; /* 与 blog-with-sidebar 的右padding一致 */
+  
+  &__inner-wrap {
+    max-width: none;  /* 移除内部限制 */
+    padding: 0;       /* 移除内部padding，由masthead控制 */
+  }
+}
+
+/* 导航链接区域也放宽 */
+.greedy-nav {
+  max-width: none;
+  
+  .visible-links {
+    max-width: none;
+  }
+}
