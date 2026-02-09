@@ -10,6 +10,26 @@ layout: default
     padding: 0 !important;
     margin: 0 !important;
   }
+
+  /* 博客布局：更宽的内容区，保持居中 */
+  .blog-with-sidebar {
+    display: flex;
+    gap: 30px;                    /* 减小间距 */
+    max-width: 1600px;            /* 最大宽度 */
+    margin: 0 auto;               /* 居中 */
+    padding: 0 20px;              /* 左右内边距 */
+  }
+  
+  .blog-sidebar {
+    width: 220px;                 /* 减小侧边栏宽度 */
+    flex-shrink: 0;
+  }
+  
+  .blog-content {
+    flex: 1;
+    min-width: 0;
+    max-width: 1200px;            /* 限制内容区最大宽度，防止过宽 */
+  }
 </style>
 
 <div class="blog-with-sidebar">
