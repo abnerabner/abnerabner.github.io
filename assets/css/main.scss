@@ -406,15 +406,18 @@ pre:hover .copy-button {
   }
 }
 
-/* 导航栏居中对齐 */
-.masthead {
-  .greedy-nav {
-    justify-content: center;  /* 水平居中 */
-    
-    .visible-links {
-      display: flex;
-      justify-content: center;  /* 菜单项居中 */
-      width: 100%;
-    }
-  }
+/* 导航栏居中对齐 - 最小化修改 */
+.greedy-nav .visible-links {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.masthead__menu {
+  text-align: center;
+}
+
+.masthead__menu-item {
+  float: none;
+  display: inline-block;
 }
