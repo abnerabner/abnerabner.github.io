@@ -1,0 +1,30 @@
+```html
+---
+layout: default
+---
+
+<div class="blog-with-sidebar">
+  <!-- 左侧导航栏 -->
+  <aside class="blog-sidebar">
+    <nav class="toc-nav">
+      <h4>Contents</h4>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#step1">Step 1: Import Data</a></li>
+        <li><a href="#step2">Step 2: Motion Correction</a></li>
+        <li><a href="#step3">Step 3: CTF Estimation</a></li>
+        <li><a href="#step4">Step 4: Tilt-Series Alignment</a></li>
+        <li><a href="#step5">Step 5: Tomogram Reconstruction</a></li>
+        <li><a href="#step6">Step 6: Particle Picking</a></li>
+        <li><a href="#step7">Step 7: Subtomogram Averaging</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#references">References</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- 主内容区 -->
+  <article class="blog-content">
+    {{ content }}
+  </article>
+</div>
