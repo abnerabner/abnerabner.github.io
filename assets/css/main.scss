@@ -87,20 +87,6 @@
 
 }
 
-$scroll_offset: 90px;
-
-/* 脱离文档流，不影响布局 */
-.blog-content [id]::before {
-  content: '';
-  display: block;
-  position: absolute;  /* 改为 absolute */
-  top: -$scroll_offset;
-  left: 0;
-  width: 0;
-  height: $scroll_offset;
-  pointer-events: none;
-}
-
 /* 给标题添加相对定位，作为 absolute 的参考 */
 .blog-content h1,
 .blog-content h2,
