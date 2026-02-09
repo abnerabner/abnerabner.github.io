@@ -87,17 +87,28 @@
 
 }
 
-$scroll_offset: 85px;
+$scroll_offset: 90px;
 
-/* 所有带 id 的元素（标题、div、section 等） */
-[id]:before {
-  content: '';
-  display: block;
-  position: relative;
-  width: 0;
-  height: $scroll_offset;
-  margin-top: -$scroll_offset;
-  visibility: hidden;
+/* 所有带 id 的元素 */
+[id]::before {
+  content: '' !important;
+  display: block !important;
+  position: relative !important;
+  width: 0 !important;
+  height: $scroll_offset !important;
+  margin-top: -$scroll_offset !important;
+  pointer-events: none !important;
+}
+
+/* 专门针对博客内容区域的所有标题 */
+.blog-content h1,
+.blog-content h2,
+.blog-content h3,
+.blog-content h4,
+.blog-content h5,
+.blog-content h6 {
+  padding-top: $scroll_offset !important;
+  margin-top: -$scroll_offset !important;
 }
 
 .badge {
