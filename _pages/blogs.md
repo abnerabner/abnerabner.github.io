@@ -2,7 +2,7 @@
 title: "Blogs"
 permalink: /blogs/
 layout: default
-author_profile: false
+author_profile: true
 ---
 
 # ✍ My Blogs
