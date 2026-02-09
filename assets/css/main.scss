@@ -406,3 +406,15 @@ pre:hover .copy-button {
   }
 }
 
+/* 导航栏居中对齐 */
+.masthead {
+  .greedy-nav {
+    justify-content: center;  /* 水平居中 */
+    
+    .visible-links {
+      display: flex;
+      justify-content: center;  /* 菜单项居中 */
+      width: 100%;
+    }
+  }
+}
