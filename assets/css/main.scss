@@ -87,14 +87,17 @@
 
 }
 
-$scroll_offset : 90px;  /* 原来是 2em，改成 60px 或更大 */
-h1:before, h2:before, h3:before, h4:before, h5:before, h6:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
-    margin-top: -$scroll_offset;
+$scroll_offset: 85px;
+
+/* 所有带 id 的元素（标题、div、section 等） */
+[id]:before {
+  content: '';
+  display: block;
+  position: relative;
+  width: 0;
+  height: $scroll_offset;
+  margin-top: -$scroll_offset;
+  visibility: hidden;
 }
 
 .badge {
