@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Cryo-ET Explorers"
+title                    : "Cryo-ET Explorer"
 description              : "Learn to use Cryo-ET to discover the life"
 repository               : "https://github.com/abnerabner/abnerabner.github.io"
 google_scholar_stats_use_cdn : false
