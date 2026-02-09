@@ -6,7 +6,7 @@
  *
  *  - Michael Rose
  *  - mademistakes.com
- *  - https://twitter.com/mmistakes
+ *  - https://twitter.com/mmistakes 
  *
 */
 
@@ -178,12 +178,12 @@ h1:before, .anchor:before {
 .blog-date {
   color: #888;
   font-size: 0.9em;
-  display: block;        /* 确保日期不跟标题同行 */
+  display: block;
 }
 
 .blog-image {
-  width: 50%;            /* ✅ 图片宽度减半 */
-  max-width: 400px;      /* 最大宽度限制 */
+  width: 50%;
+  max-width: 400px;
   margin: 15px 0;
   border-radius: 8px;
   overflow: hidden;
@@ -201,417 +201,13 @@ h1:before, .anchor:before {
   margin: 15px 0 0 0;
 }
 
-/* 博客页面带左侧导航 */
-.blog-with-sidebar {
-  display: flex;
-  gap: 40px;
-  max-width: 1200px;
-  margin: 0 auto;
-  
-  .blog-sidebar {
-    width: 220px;
-    flex-shrink: 0;
-    position: sticky;
-    top: 100px;
-    height: fit-content;
-    
-    .toc-nav {
-      background: #f8f9fa;
-      border-radius: 8px;
-      padding: 20px;
-      
-      h4 {
-        margin: 0 0 15px 0;
-        font-size: 1.1em;
-        color: #333;
-        border-bottom: 2px solid #dee2e6;
-        padding-bottom: 10px;
-      }
-      
-      ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        
-        li {
-          margin-bottom: 8px;
-          
-          a {
-            color: #555;
-            text-decoration: none;
-            font-size: 0.9em;
-            display: block;
-            padding: 5px 10px;
-            border-radius: 4px;
-            transition: all 0.2s ease;
-            
-            &:hover {
-              background: #e9ecef;
-              color: #0066cc;
-            }
-          }
-        }
-      }
-    }
-  }
-  
-  .blog-content {
-    flex: 1;
-    min-width: 0;  /* 防止内容溢出 */
-    
-    h2 {
-      margin-top: 40px;
-      padding-top: 20px;
-      border-top: 1px solid #eee;
-      
-      &:first-of-type {
-        margin-top: 0;
-        padding-top: 0;
-        border-top: none;
-      }
-    }
-  }
-}
-
-/* 响应式：手机端隐藏侧边栏 */
-@media (max-width: 768px) {
-  .blog-with-sidebar {
-    flex-direction: column;
-    
-    .blog-sidebar {
-      width: 100%;
-      position: static;
-      order: -1;  /* 移到内容上方 */
-      
-      .toc-nav {
-        padding: 15px;
-        
-        ul {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 10px;
-          
-          li {
-            margin-bottom: 0;
-            
-            a {
-              background: #e9ecef;
-              padding: 5px 12px;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-/* 博客页面字体放大 */
-.blog-content {
-  font-size: 16px;  /* 基础字体从默认14px改为16px */
-  line-height: 1.8;
-  
-  h2 {
-    font-size: 1.8em;  /* 标题更大 */
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px solid #eee;
-    
-    &:first-of-type {
-      margin-top: 0;
-      padding-top: 0;
-      border-top: none;
-    }
-  }
-  
-  h3 {
-    font-size: 1.4em;
-  }
-  
-  p, li {
-    font-size: 1em;  /* 16px */
-    line-height: 1.8;
-  }
-  
-  /* 代码块样式 */
-  pre {
-    background: #f8f9fa;
-    border: 1px solid #e9ecef;
-    border-radius: 8px;
-    padding: 16px;
-    overflow-x: auto;
-    font-size: 14px;  /* 代码字体稍小但仍可读 */
-    line-height: 1.6;
-    
-    code {
-      font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
-      font-size: 14px;
-      background: none;
-      padding: 0;
-    }
-  }
-  
-  /* 行内代码 */
-  code {
-    background: #f1f3f4;
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
-    font-size: 0.9em;
-  }
-}
-
-/* 复制按钮样式 */
-.copy-button {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 4px 12px;
-  font-size: 12px;
-  cursor: pointer;
-  opacity: 0;  /* 默认隐藏 */
-  transition: opacity 0.2s;
-  
-  &:hover {
-    background: #f0f0f0;
-  }
-}
-
-pre:hover .copy-button {
-  opacity: 1;  /* 鼠标悬停显示 */
-}
-
-/* 左侧导航保持合适大小 */
-.blog-sidebar {
-  .toc-nav {
-    font-size: 14px;
-    
-    h4 {
-      font-size: 16px;
-    }
-  }
-}
-
-/* 博客页面布局加宽 */
-.blog-with-sidebar {
-  display: flex;
-  gap: 40px;
-  max-width: 1400px;        /* 从 1200px 增加到 1400px */
-  margin: 0 auto;
-  padding: 0 20px;          /* 添加左右内边距 */
-  
-  .blog-sidebar {
-    width: 280px;           /* 从 220px 增加到 280px */
-    flex-shrink: 0;
-    position: sticky;
-    top: 100px;
-    height: fit-content;
-    
-    .toc-nav {
-      background: #f8f9fa;
-      border-radius: 8px;
-      padding: 20px;
-      
-      h4 {
-        margin: 0 0 15px 0;
-        font-size: 18px;    /* 标题字体加大 */
-        color: #333;
-        border-bottom: 2px solid #dee2e6;
-        padding-bottom: 10px;
-      }
-      
-      ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        
-        li {
-          margin-bottom: 10px;  /* 增加间距 */
-          
-          a {
-            color: #555;
-            text-decoration: none;
-            font-size: 16px;    /* 从 14px 增加到 16px，和正文一样 */
-            line-height: 1.6;   /* 增加行高 */
-            display: block;
-            padding: 8px 12px;  /* 增加内边距 */
-            border-radius: 4px;
-            transition: all 0.2s ease;
-            
-            &:hover {
-              background: #e9ecef;
-              color: #0066cc;
-            }
-          }
-        }
-      }
-    }
-  }
-  
-  .blog-content {
-    flex: 1;
-    min-width: 0;
-    font-size: 17px;          /* 从 16px 增加到 17px */
-    line-height: 1.8;
-    
-    h2 {
-      font-size: 2em;         /* 从 1.8em 增加到 2em */
-      margin-top: 40px;
-      padding-top: 20px;
-      border-top: 1px solid #eee;
-      
-      &:first-of-type {
-        margin-top: 0;
-        padding-top: 0;
-        border-top: none;
-      }
-    }
-    
-    h3 {
-      font-size: 1.5em;       /* 从 1.4em 增加到 1.5em */
-    }
-    
-    p, li {
-      font-size: 17px;        /* 和基础字体一致 */
-      line-height: 1.8;
-    }
-    
-    /* 代码块样式 - 去掉右上角的叉 */
-    pre {
-      background: #f8f9fa;
-      border: 1px solid #e9ecef;
-      border-radius: 8px;
-      padding: 20px;          /* 增加内边距 */
-      overflow-x: auto;
-      font-size: 15px;        /* 从 14px 增加到 15px */
-      line-height: 1.6;
-      position: relative;
-      
-      code {
-        font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
-        font-size: 15px;      /* 和 pre 一致 */
-        background: none;
-        padding: 0;
-      }
-    }
-    
-    /* 行内代码 */
-    code {
-      background: #f1f3f4;
-      padding: 3px 8px;       /* 稍微增加 */
-      border-radius: 4px;
-      font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
-      font-size: 0.9em;
-    }
-  }
-}
-
-/* 复制按钮样式 - 修改位置避免重叠 */
-.copy-button {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 6px 14px;        /* 稍微增大 */
-  font-size: 13px;          /* 稍微增大 */
-  cursor: pointer;
-  opacity: 0;
-  transition: opacity 0.2s;
-  
-  &:hover {
-    background: #f0f0f0;
-  }
-}
-
-pre:hover .copy-button {
-  opacity: 1;
-}
-
-/* 响应式调整 */
-@media (max-width: 768px) {
-  .blog-with-sidebar {
-    flex-direction: column;
-    padding: 0 15px;
-    
-    .blog-sidebar {
-      width: 100%;
-      position: static;
-      order: -1;
-      
-      .toc-nav {
-        padding: 15px;
-        
-        ul {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 10px;
-          
-          li {
-            margin-bottom: 0;
-            
-            a {
-              background: #e9ecef;
-              padding: 6px 14px;
-              font-size: 15px;
-            }
-          }
-        }
-      }
-    }
-    
-    .blog-content {
-      font-size: 16px;
-      
-      pre {
-        font-size: 14px;
-      }
-    }
-  }
-}
-
-.copy-button {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 6px;
-  cursor: pointer;
-  opacity: 0;
-  transition: opacity 0.2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-  svg {
-    color: #666;
-  }
-  
-  &:hover {
-    background: #f0f0f0;
-    
-    svg {
-      color: #333;
-    }
-  }
-}
-
-pre:hover .copy-button {
-  opacity: 1;
-}
-
-/* 博客页面布局 - 左移 */
+/* 博客页面布局 - 左移（唯一完整定义） */
 .blog-with-sidebar {
   display: flex;
   gap: 40px;
   max-width: 1400px;
   margin: 0;
-  padding: 0 40px 0 10%;      /* 左边距 10%，右边距 40px */
+  padding: 0 40px 0 15%;
   
   .blog-sidebar {
     width: 280px;
@@ -667,18 +263,16 @@ pre:hover .copy-button {
     font-size: 17px;
     line-height: 1.8;
     
-    /* 博客标题 - 最大 */
     .blog-title {
-      font-size: 2em;         /* 比 Step 标题大 */
+      font-size: 2em;
       font-weight: bold;
       margin-bottom: 30px;
       padding-bottom: 15px;
       border-bottom: 2px solid #eee;
     }
     
-    /* Step 标题 - 中等（比正文大，比博客标题小）*/
     h2 {
-      font-size: 1.5em;       /* 从 2em 减小到 1.5em */
+      font-size: 1.5em;
       font-weight: bold;
       margin-top: 40px;
       padding-top: 20px;
@@ -728,6 +322,7 @@ pre:hover .copy-button {
   }
 }
 
+/* 复制按钮 */
 .copy-button {
   position: absolute;
   top: 8px;
@@ -760,6 +355,7 @@ pre:hover .copy-button {
   opacity: 1;
 }
 
+/* 响应式 */
 @media (max-width: 768px) {
   .blog-with-sidebar {
     flex-direction: column;
