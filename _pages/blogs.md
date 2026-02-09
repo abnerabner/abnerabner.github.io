@@ -5,7 +5,7 @@ layout: default
 author_profile: true
 ---
 
-## My Blogs 
+# ✍ My Blogs 
 
 {% for blog in site.blogs %}
   <article>
