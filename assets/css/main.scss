@@ -572,3 +572,35 @@ pre:hover .copy-button {
     }
   }
 }
+
+.copy-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 6px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  svg {
+    color: #666;
+  }
+  
+  &:hover {
+    background: #f0f0f0;
+    
+    svg {
+      color: #333;
+    }
+  }
+}
+
+pre:hover .copy-button {
+  opacity: 1;
+}
