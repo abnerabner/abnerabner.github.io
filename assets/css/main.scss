@@ -405,3 +405,24 @@ pre:hover .copy-button {
     }
   }
 }
+
+/* 强制博客页面全宽左对齐 */
+.page {
+  .page__content {
+    .blog-with-sidebar {
+      margin: 0 !important;
+      padding: 0 40px 0 15% !important;
+      max-width: none !important;
+      width: 100% !important;
+    }
+  }
+}
+
+/* 或者更强制的方式 */
+.blog-with-sidebar {
+  margin: 0 0 0 0 !important;
+  padding-left: 15% !important;
+  padding-right: 40px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
