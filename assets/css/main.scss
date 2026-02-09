@@ -100,17 +100,6 @@ $scroll_offset: 90px;
   pointer-events: none !important;
 }
 
-/* 专门针对博客内容区域的所有标题 */
-.blog-content h1,
-.blog-content h2,
-.blog-content h3,
-.blog-content h4,
-.blog-content h5,
-.blog-content h6 {
-  padding-top: $scroll_offset !important;
-  margin-top: -$scroll_offset !important;
-}
-
 .badge {
     padding-left: 1rem;
     padding-right: 1rem;
