@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Cryo-ET Explorer"
 excerpt: ""
 author_profile: true
 redirect_from: 
