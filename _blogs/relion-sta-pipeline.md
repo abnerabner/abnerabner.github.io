@@ -6,7 +6,7 @@ date: 2026-02-08
 image: /images/blogs/relion-sta-pipeline/relion5-cover.jpg
 ---
 
-This tutorial will guide you through the entire Subtomogram Averaging (STA) workflow using RELION 5.
+This tutorial will guide you through the entire subtomogram averaging (STA) workflow using RELION 5.
 
 ## Prerequisites
 
