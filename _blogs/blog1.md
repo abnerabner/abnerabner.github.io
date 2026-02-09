@@ -1,6 +1,6 @@
 ---
-title: "博客标题"
+title: "Blog title"
 date: 2025-01-20
 ---
 
-博客内容...
+content...
