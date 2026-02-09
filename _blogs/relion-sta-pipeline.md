@@ -1,6 +1,6 @@
 ---
 title: "RELION 5 STA pipeline"
-image: /images/blogs/relion5-cover.jpg
+image: /images/blogs/relion-sta-pipeline/relion5-cover.jpg
 date: 2026-02-08
 layout: blog
 ---
