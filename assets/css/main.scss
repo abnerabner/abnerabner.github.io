@@ -89,12 +89,11 @@
 
 
 
-h1[id],
-h2[id],
-h3[id],
-h4[id],
-h5[id],
-h6[id] {
+h1, h2, h3, h4, h5, h6 {
+  scroll-margin-top: 90px;
+}
+
+.anchor {
   scroll-margin-top: 90px;
 }
 
