@@ -19,7 +19,7 @@ redirect_from:
 # 👋 About Me
 
 <p style="margin-left: 2em; line-height: 1.6;">
-Hi! My name is Zhenglin Li, and I'm a Ph.D. student in biology. My research focuses on studying various unique organisms using high-resolution structural biology techniques, particularly advanced cryo-electron microscopy methods—especially cryo-elecon tomography—to uncover distinctive structures. Additionally, I'm fascinated by the unique macromolecular structures found in diseased tissues. I hope my work will help us better understand these remarkable organisms and the causes of diseases!
+Hi! My name is Zhenglin Li, and I'm a Ph.D. student in biology. My research focuses on studying various unique organisms using high-resolution structural biology techniques, particularly advanced cryo-electron microscopy methods, especially cryo-elecon tomography, to uncover distinctive structures. Additionally, I'm fascinated by the unique macromolecular structures found in diseased tissues. I hope my work will help us better understand these remarkable organisms and the causes of diseases!
 </p>
 
 <p style="margin-left: 2em;">
