@@ -89,17 +89,13 @@
 
 
 
-$scroll_offset: 90px;
-
-/* 所有带 id 的元素 */
-[id]::before {
-  content: '' !important;
-  display: block !important;
-  position: relative !important;
-  width: 0 !important;
-  height: $scroll_offset !important;
-  margin-top: -$scroll_offset !important;
-  pointer-events: none !important;
+h1[id],
+h2[id],
+h3[id],
+h4[id],
+h5[id],
+h6[id] {
+  scroll-margin-top: 90px;
 }
 
 
