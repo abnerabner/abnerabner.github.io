@@ -8,15 +8,14 @@ layout: blog
 This tutorial will guide you through the entire Subtomogram Averaging (STA) workflow using RELION 5.
 
 
-## Prerequisites 
-{: #prerequisites}
+## Prerequisites {#prerequisites}
 
 Before starting, ensure you have:
 - RELION 5.0 or later installed
 - A dataset of tilt-series images
 - Sufficient computational resources (GPU recommended)
 
-## Step 1: Import Data
+## Step 1: Import Data 
 {: #step1}
 
 First, import your tilt-series data into RELION:
