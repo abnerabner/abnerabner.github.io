@@ -1,19 +1,15 @@
-// 强制 TOC 使用浏览器原生锚点滚动（捕获阶段）
 document.addEventListener(
-  'click',
+  "click",
   function (e) {
-    const a = e.target.closest('a[href^="#"]');
+    const a = e.target.closest(
+      'nav#site-nav.greedy-nav a[href^="#"]'
+    );
     if (!a) return;
 
-    const id = a.getAttribute('href');
-    const target = document.querySelector(id);
-    if (!target) return;
-
-    // 阻止所有后续 JS（包括主题的）
+    // 阻止 greedy-nav 的 JS
     e.stopImmediatePropagation();
 
-    // 允许浏览器默认锚点行为
-    // 不调用 preventDefault()
+    // 不 preventDefault → 允许浏览器原生锚点
   },
-  true // ← 捕获阶段（关键）
+  true // 捕获阶段
 );
